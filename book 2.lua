@@ -34,6 +34,9 @@ end);
 MainBox:AddButton("rejoin server", function()
     game.Players.LocalPlayer:Kick("rejoining")
     wait()
+    queue_on_teleport[[
+    https://raw.githubusercontent.com/xectray1/realloader/refs/heads/main/books.lua
+    ]]
     cloneref(game:GetService("TeleportService")):Teleport(game.PlaceId, game.Players.LocalPlayer);
 end);
 
